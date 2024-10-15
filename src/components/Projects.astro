@@ -3,7 +3,19 @@ import GitHub from "./icons/GitHub.astro"
 import NextJS from "./icons/NextJS.astro"
 import Tailwind from "./icons/Tailwind.astro"
 import Link from "./icons/Link.astro"
+import HTML from "./icons/Html.astro"
 import LinkButton from "./LinkButton.astro"
+import Scss from "./icons/Scss.astro"
+import Javascript from "./icons/Javascript.astro"
+import React from "./icons/React.astro"
+import i18next from "./icons/i18next.astro"
+import Node from "./icons/Node.astro"
+import Mongo from "./icons/Mongo.astro"
+import Express from "./icons/Express.astro"
+import Stripe from "./icons/Stripe.astro"
+import Sequelize from "./icons/Sequelize.astro"
+import Css from "./icons/Css.astro"
+import { t } from "i18next";
 
 const TAGS = {
   NEXT: {
@@ -16,24 +28,93 @@ const TAGS = {
     class: "bg-[#003159] text-white",
     icon: Tailwind,
   },
+  HTML: {
+    name: "HTML",
+    class: "bg-[#FFA07A] text-white",
+    icon: HTML
+  },
+  SCSS: {
+    name: "Scss",
+    class: "bg-[#FF8FBA] text-white",
+    icon: Scss
+  },
+  JAVASCRIPT: {
+    name: "Javascript",
+    class: "bg-[#F7DF1E] text-white",
+    icon: Javascript
+  },
+  REACT: {
+    name: "React",
+    class: "bg-[#D3E8E8] text-white",
+    icon: React
+  },
+  I18NEXT: {
+    name: "i18next",
+    class: "bg-[#00BFAE] text-white",
+    icon: i18next
+  },
+  NODE: {
+    name: "Node",
+    class: "bg-[#8CC84B] text-white",
+    icon: Node
+  },
+  EXPRESS: {
+    name: "Express",
+    class: "bg-gray-600 text-white",
+    icon: Express
+  },
+  MONGO: {
+    name: "Mongo",
+    class: "bg-[#4DB33D] text-white",
+    icon: Mongo
+  },
+  STRIPE: {
+    name: "Stripe",
+    class: "bg-[#008CFF] text-white",
+    icon: Stripe
+  },
+  SEQUELIZE: {
+    name:"Sequelize",
+    class: "bg-[#52B0E6] text-white",
+    icon: Sequelize
+  },
+  CSS: {
+    name:"Css",
+    class: "bg-[#264DE4] text-white",
+    icon: Css
+  }
 }
+
 const PROJECTS = [
   {
-    title: "SVGL - A beautiful library with SVG logos",
-    description:
-      "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://svgl.vercel.app/",
-    github: "https://github.com/pheralb/svgl",
-    image: "/projects/svgl.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+    title: t("proyectos.fedFodFrontTitulo"),
+    description: t("proyectos.fedFodFrontDescripcion"),
+    link: "https://fedfod.netlify.app/",
+    github: "https://github.com/abian22/FedFodFront",
+    image: "/projects/fedfodfront.PNG",
+    tags: [TAGS.HTML, TAGS.SCSS, TAGS.JAVASCRIPT, TAGS.REACT,TAGS.I18NEXT,]
   },
   {
-    title: "AdventJS - Retos de programación con JavaScript y TypeScript",
-    description:
-      "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://adventjs.dev",
-    image: "/projects/adventjs.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+    title: "FedFod - Backend",
+    description:  t("proyectos.fedFodBackDescripcion"),
+    github: "https://github.com/abian22/FedFodBack",
+    image: "/projects/fedfodback.PNG",
+    tags: [TAGS.JAVASCRIPT, TAGS.EXPRESS, TAGS.NODE, TAGS.MONGO, TAGS.STRIPE],
+  },
+  {
+    title: "Apetit Comite - Backend",
+    description: t("proyectos.apetitBackDescripcion"),
+    github: "https://github.com/abian22/Frontend-React-Project-Apetit-Comite",
+    image: "/projects/bd.webp",
+    tags: [TAGS.JAVASCRIPT, TAGS.EXPRESS, TAGS.NODE, TAGS.SEQUELIZE],
+  },
+  {
+    title: t("proyectos.ipTitulo"),
+    description: t("proyectos.ipDescripcion"),
+    link: "https://sunny-pavlova-6136b7.netlify.app/",
+    github:"https://github.com/abian22/IP-address-tracker",
+    image: "/projects/ipTracker.webp",
+    tags: [TAGS.HTML, TAGS.CSS, TAGS.JAVASCRIPT, TAGS.REACT],
   },
 ]
 ---
@@ -41,53 +122,56 @@ const PROJECTS = [
 <div class="flex flex-col gap-y-16">
   {
     PROJECTS.map(({ image, title, description, tags, link, github }) => (
-    <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
-  <div class="w-full md:w-1/2">
-    <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-clip rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
-      <img alt="Recién llegado vs 5 años en Nueva Zelanda" class="object-cover object-top w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
-    </div>
-  </div>
+      <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+        <div class="w-full md:w-1/2">
+          <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-hidden rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+            <img alt={title} class="object-cover w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105" loading="lazy" src={image} />
+          </div>
+        </div>
 
-  <div class="w-full md:w-1/2 md:max-w-lg">
-    <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100">
-      {title}
-    </h3>
-    <div class="flex flex-wrap mt-2">
-      <ul class="flex flex-row mb-2 gap-x-2">
-          {tags.map((tag) => (
-            <li>
-              <span
-                class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2 `}
-              >
-                <tag.icon class="size-4" />
-                {tag.name}
-              </span>
-            </li>
-          ))}
-        </ul>
+        <div class="w-full md:w-1/2 md:max-w-lg">
+          <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100">{title}</h3>
+          <div class="flex flex-wrap mt-2">
+            <ul class="flex flex-row mb-2 gap-x-2">
+              {tags.map((tag) => (
+                <li>
+                  <span class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2`}>
+                    <tag.icon class="size-4" />
+                    {tag.name}
+                  </span>
+                </li>
+              ))}
+            </ul>
 
-      <div class="mt-2 text-gray-700 dark:text-gray-400">{description}</div>
-      <footer class="flex items-end justify-start mt-4 gap-x-4">
-          {github && (
-            <LinkButton href={github}>
-              <GitHub class="size-6" />
-              Code
-              
-            </LinkButton>
-          )}
-          {link && (
-            <LinkButton href={link}>
-              <Link class="size-4" />
-              Preview
-            </LinkButton>
-          )}
-        </footer>
-    </div>
-  </div>
-</article>
+            <div class="mt-2 text-gray-700 dark:text-gray-400">{description}</div>
+            <footer class="flex items-end justify-start mt-4 gap-x-4">
+              {github && (
+                <LinkButton href={github}>
+                  <GitHub class="size-6" />
+                  Code
+                </LinkButton>
+              )}
+              {link && (
+                <LinkButton href={link}>
+                  <Link class="size-4" />
+                  Preview
+                </LinkButton>
+              )}
+            </footer>
+          </div>
+          
+        </div>
+        
+      </article>
     ))
   }
-</div>
+  <div>
 
+    <div class="flex justify-center w-full mt-8">
+      <LinkButton  href={t("proyectos.masProyectos") === "See more projects..." ? "/en/moreProjects" : "/moreProjects"}>
+       { t("proyectos.masProyectos")}
+      </LinkButton>
+    </div>
+  </div>
 
 

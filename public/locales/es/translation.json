@@ -1,0 +1,74 @@
+{
+    "header": {
+        "Formación": "Formación",
+        "Proyectos": "Proyectos",
+        "Sobre mí": "Sobre mí",
+        "Contacto": "Contacto",
+        "language":"EN"
+    },
+    "hero": {
+        "disponibilidad":"Disponible para trabajar",
+        "nombre":"¡Hola!, soy Abián",
+        "resumeStrong":"Desarrollador Web FullStack",
+        "resume":"Enfocado en crear soluciones innovadoras y con ganas de trabajar con un equipo con el que seguir creciendo",
+        "contactame":"Contáctame",
+        "linkedin":"Linkedin"     
+    },
+    "formacion": {
+        "formacion":"Formación",
+        "ciclo": "Ciclo Superior DAM con especialización en programación web",
+        "cicloCentro": "Centro internacional politécnico",
+        "cicloFecha":"Actualmente...",
+        "cicloDescripcion":"A día de hoy, estoy cursando el ciclo superior de DAM para seguir ampliando mis conocimientos en programación web e introducirme en el desarrollo de aplicaciones móviles.",
+        "reactCurso":"React - The Complete Guide 2024 (incl. Next.js, Redux)",
+        "reactCentro":"Udemy",
+        "reactFecha":"Marzo 2024",
+        "reactDescripcion":"Curso completo de React en el que he profundizado sobre Hooks, componentes, React Router, Next.js, Redux, testing y más... Contiene 68 horas de contenido, ejercicios y proyectos con los que he podido practicar.",
+        "javascript":"JavaScript Algorithms and Data Structure",
+        "javascriptCentro":"FreeCodeCamp",
+        "javascriptFecha":"Julio 2023",
+        "javascriptDescripcion":"Certificado de JavaScript avanzado que realicé y completé tras el bootcamp para poner a prueba y repasar lo que había aprendido.",
+        "bootcamp": "Bootcamp fullstack & mobile",
+        "bootcampCentro": "Reboot Academy",
+        "bootcampFecha": "Junio 2023",
+        "bootcampDescripcion":"Realicé un bootcamp fullstack de 6 meses de duración. Aquí empecé en el mundo del desarrollo, aprendiendo tecnologías como HTML, CSS, JS, MySQL, Node.js, despliegue de aplicaciones , React y más..."
+    },
+    "proyectos": {
+        "proyectos":"Proyectos",
+        "fedFodFrontTitulo": "FedFod - Sube tus videos o fotos culinarios",
+        "fedFodFrontDescripcion":"Una web que imita la funcionalidad de TikTok, pero enfocada en contenido sobre comida, permitiendo a los usuarios descubrir, ver y compartir contenido multimedia relacionado con la gastronomía y la cocina.",
+        "fedFodBackDescripcion":"Este backend gestiona la autenticación de usuarios, la carga y el almacenamiento de videos, así como la interacción con el contenido, incluyendo comentarios, likes y búsqueda personalizada.",
+        "apetitBackDescripcion":"Implementación del backend para una web de recetas en el cual puedes organizar tus dietas semanales.",
+        "ipTitulo":"IP Tracker - Reto de programación",
+        "ipDescripcion": "Creación de una interfaz de usuario interactiva que nos permite ver la ubicacion de una dirección IP que nosotrs introduzcamos.",
+        "masProyectos": "Ver más proyectos..."
+    },
+    "sobreMi": {
+        "sobreMi":"Sobre mí",
+        "primerParrafo": "Me llamo Abián. Soy psicólogo, pero, desde que descubrí la programación a través de un bootcamp",
+        "primerParrafoStrong": "me encanta crear experiencias web para los usuarios",
+        "segundoParrafo1":"Entre mis éxitos destaco que durante el bootcamp",
+        "segundoParrafoStrong":"ayudé a mis compañeros de equipo a aprender sobre React",
+        "segundoParrafo2": "con conceptos que no tenían claro. Me encanta poder compartir mi conocimiento si eso ayuda a los demás.",
+        "tercerParrafoStrong":"Cuento con experiencia desarrollando aplicaciones web",
+        "tercerParrafo":"Actualmente, estoy desarrollando un proyecto relacionado con la psicología, cuyo objetivo es ofrecer información clave sobre la salud mental y brindar un espacio donde las personas puedan solicitar ayuda.",
+        "derechos":  "Casi todos los derechos reservados"
+    },
+    "masProyectos": {
+        "e-commerceTitulo":"E-Commerce - Reto de programación",
+        "e-commerceDescripcion":"Web de una parte de un comercio electrónico, se pueden ver las diferentes fotos del producto y añadir o quitar productos del carrito.",
+        "piedraPapelTitulo":"Piedra papel o tijeras - Reto de programación",
+        "piedraPapelDescripcion":"Juego interactivo de piedra papel o tijeras en el que se guardan las victorias conseguidas.",
+        "apetitTitulo":"Apetit Comite - Gestiona tu dieta semanal",
+        "apetitDescripcion":"En esta página se presentan una serie de recetas que puedes añadir a cada día de la semana, permitiéndote así tener un plan de dieta semanal.",
+        "propinaTitulo":"Calculadora de propina - Reto de programación",
+        "propinaDescripcion":"Reto de programación que consistía en crear una calculadora para calcular la propina en función del número de personas.",
+        "comentariosTitulo":"Sección de comentarios - Reto de programación",
+        "comentariosDescripcion":"Reto de programación que consiste en crear una sección interactiva de comentarios. Permite crear comentarios, responder a comentarios y dar like.",
+        "edadTitulo":"Calculadora de edad - Reto de programación",
+        "edadDescripcion":"Reto de programación que calcula los años que tiene una persoan introduciendo su fecha de nacimiento.",
+        "notificacionesTitulo":"Sección de notificaciones - Reto de programación",
+        "notificacionesDescripcion":"Reto de programación para practicar la funcionalidad de las notificaciones."
+    }
+        
+}

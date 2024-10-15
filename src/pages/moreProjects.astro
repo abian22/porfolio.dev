@@ -1,0 +1,231 @@
+---
+import { changeLanguage } from "i18next";
+import GitHub from "../components/icons/GitHub.astro";
+import NextJS from "../components/icons/NextJS.astro";
+import Tailwind from "../components/icons/Tailwind.astro";
+import Link from "../components/icons/Link.astro";
+import HTML from "../components/icons/Html.astro";
+import LinkButton from "../components/LinkButton.astro";
+import Scss from "../components/icons/Scss.astro";
+import Javascript from "../components/icons/Javascript.astro";
+import React from "../components/icons/React.astro";
+import i18next from "../components/icons/i18next.astro";
+import Node from "../components/icons/Node.astro";
+import Mongo from "../components/icons/Mongo.astro";
+import Express from "../components/icons/Express.astro";
+import Stripe from "../components/icons/Stripe.astro";
+import Sequelize from "../components/icons/Sequelize.astro";
+import Css from "../components/icons/Css.astro";
+import MaterialUI from "../components/icons/MaterialUi.astro";
+import Bootstrap from "../components/icons/Bootstrap.astro";
+import SectionContainer from "@/components/SectionContainer.astro";
+import { t } from "i18next";
+
+
+changeLanguage("es");
+
+const TAGS = {
+    NEXT: {
+        name: "Next.js",
+        class: "bg-black text-white",
+        icon: NextJS,
+    },
+    TAILWIND: {
+        name: "Tailwind CSS",
+        class: "bg-[#003159] text-white",
+        icon: Tailwind,
+    },
+    HTML: {
+        name: "HTML",
+        class: "bg-[#FFA07A] text-white",
+        icon: HTML,
+    },
+    SCSS: {
+        name: "Scss",
+        class: "bg-[#FF8FBA] text-white",
+        icon: Scss,
+    },
+    JAVASCRIPT: {
+        name: "Javascript",
+        class: "bg-[#F7DF1E] text-white",
+        icon: Javascript,
+    },
+    REACT: {
+        name: "React",
+        class: "bg-[#D3E8E8] text-white",
+        icon: React,
+    },
+    I18NEXT: {
+        name: "i18next",
+        class: "bg-[#00BFAE] text-white",
+        icon: i18next,
+    },
+    NODE: {
+        name: "Node",
+        class: "bg-[#8CC84B] text-white",
+        icon: Node,
+    },
+    EXPRESS: {
+        name: "Express",
+        class: "bg-gray-600 text-white",
+        icon: Express,
+    },
+    MONGO: {
+        name: "Mongo",
+        class: "bg-[#4DB33D] text-white",
+        icon: Mongo,
+    },
+    STRIPE: {
+        name: "Stripe",
+        class: "bg-[#008CFF] text-white",
+        icon: Stripe,
+    },
+    SEQUELIZE: {
+        name: "Sequelize",
+        class: "bg-[#52B0E6] text-white",
+        icon: Sequelize,
+    },
+    CSS: {
+        name: "Css",
+        class: "bg-[#264DE4] text-white",
+        icon: Css,
+    },
+    MATERIALUI: {
+        name: "Material UI",
+        class: "bg-[#0D47A1] text-white",
+        icon: MaterialUI,
+    },
+    BOOTSTRAP: {
+        name: "Bootstrap",
+        class: "bg-[#6f5e9c] text-white",
+        icon: Bootstrap,
+    },
+};
+const PROJECTS = [
+    {
+        title: t("masProyectos.e-commerceTitulo"),
+        description: t("masProyectos.e-commerceDescripcion"),
+        link: "https://deft-centaur-514825.netlify.app/",
+        github: "https://github.com/abian22/e-commerce-product-page",
+        image: "/projects/eShop.webp",
+        tags: [TAGS.HTML, TAGS.MATERIALUI, TAGS.JAVASCRIPT, TAGS.REACT],
+    },
+    {
+        title: t("masProyectos.piedraPapelTitulo"),
+        description: t("masProyectos.piedraPapelDescripcion"),
+        github: "https://github.com/abian22/Rock-Paper-Scissors-game",
+        link: "https://sweet-quokka-370530.netlify.app/initialPage",
+        image: "/projects/PiedraPapel.PNG",
+        tags: [TAGS.HTML, TAGS.CSS, TAGS.JAVASCRIPT, TAGS.REACT],
+    },
+    {
+        title: t("masProyectos.apetitTitulo"),
+        description: t("masProyectos.apetitDescripcion"),
+        github: "https://github.com/abian22/Frontend-React-Project-Apetit-Comite",
+        link: "https://appetitcomite.netlify.app/init",
+        image: "/projects/apetit.PNG",
+        tags: [TAGS.HTML, TAGS.MATERIALUI, TAGS.JAVASCRIPT, TAGS.REACT],
+    },
+    {
+        title: t("masProyectos.propinaTitulo"),
+        description: t("masProyectos.propinaDescripcion"),
+        link: "https://elegant-cat-79bbc4.netlify.app/",
+        github: "https://github.com/abian22/tip-calculator",
+        image: "/projects/calculadorapropina.PNG",
+        tags: [TAGS.HTML, TAGS.TAILWIND, TAGS.JAVASCRIPT, TAGS.REACT],
+    },
+    {
+        title: t("masProyectos.comentariosTitulo"),
+        description: t("masProyectos.comentariosDescripcion"),
+        link: "https://visionary-pony-68063e.netlify.app/",
+        github: "https://github.com/abian22/interactive-comment-section",
+        image: "/projects/comentarios.PNG",
+        tags: [TAGS.HTML, TAGS.MATERIALUI, TAGS.JAVASCRIPT, TAGS.REACT],
+    },
+    {
+        title: t("masProyectos.edadTitulo"),
+        description: t("masProyectos.edadDescripcion"),
+        link: "https://jazzy-sable-1f02d2.netlify.app/",
+        github: "https://github.com/abian22/Age-calculator",
+        image: "/projects/calculadoraEdad.PNG",
+        tags: [TAGS.HTML, TAGS.TAILWIND, TAGS.JAVASCRIPT, TAGS.REACT],
+    },
+    {
+        title: t("masProyectos.notificacionesTitulo"),
+        description: t("masProyectos.notificacionesDescripcion"),
+        link: "https://lustrous-taiyaki-f96d10.netlify.app/",
+        github: "https://github.com/abian22/Notification-page-frontend-mentor",
+        image: "/projects/notificaciones.PNG",
+        tags: [TAGS.HTML, TAGS.BOOTSTRAP, TAGS.JAVASCRIPT, TAGS.REACT],
+    },
+];
+---
+
+<head>
+  <title>Porfolio de Abián - Más proyectos</title>
+  <link
+    rel="icon"
+    href="../components/../../public/favicon.svg"
+    sizes="32x32"
+  />
+  <meta charset="UTF-8" />
+</head>
+
+<SectionContainer class="mb-10 mt-4">
+  <div class="space-y-24 mt-44tre">
+    {
+      PROJECTS.map(({ image, title, description, tags, link, github }) => (
+        <article class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
+          <div class="w-full md:w-1/2">
+            <div class="relative flex flex-col items-center col-span-6 row-span-5 gap-8 transition duration-500 ease-in-out transform shadow-xl overflow-hidden rounded-xl sm:rounded-xl md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 lg:hover:border-gray-700 lg:hover:bg-gray-800/50">
+              <img
+                alt={title}
+                class="object-cover w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
+                loading="lazy"
+                src={image}
+              />
+            </div>
+          </div>
+
+          <div class="w-full md:w-1/2 md:max-w-lg">
+            <h3 class="text-2xl font-bold text-gray-800 dark:text-gray-100">
+              {title}
+            </h3>
+            <div class="flex flex-wrap mt-2">
+              <ul class="flex flex-row mb-2 gap-x-2">
+                {tags.map((tag) => (
+                  <li>
+                    <span
+                      class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2`}
+                    >
+                      <tag.icon class="size-4" />
+                      {tag.name}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+
+              <div class="mt-2 text-gray-700 dark:text-gray-400">
+                {description}
+              </div>
+              <footer class="flex items-end justify-start mt-4 gap-x-4">
+                {github && (
+                  <LinkButton href={github}>
+                    <GitHub class="size-6" />
+                    Code
+                  </LinkButton>
+                )}
+                {link && (
+                  <LinkButton href={link}>
+                    <Link class="size-4" />
+                    Preview
+                  </LinkButton>
+                )}
+              </footer>
+            </div>
+          </div>
+        </article>
+      ))
+    }
+  </div>
+</SectionContainer>

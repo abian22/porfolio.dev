@@ -1,0 +1,74 @@
+{
+    "header": {
+        "Formación": "Education",
+        "Proyectos": "Projects",
+        "Sobre mí": "About me",
+        "Contacto": "Contact",
+        "language":"ES"
+    },
+    "hero":{
+        "disponibilidad":"Available to work.",
+        "nombre":"Hello! I am Abián",
+        "resumeStrong":"Full Stack Web Developer.",
+        "resume":"Focused on creating innovative solutions and eager to work with a team to continue growing",
+        "contactame":"Contact me",
+        "linkedin":"Linkedin"
+    },
+    "formacion": {
+        "formacion":"Education",
+        "ciclo": "Advanced Technical Diploma in Multiplatform Application Development with a specialization in web programming",
+        "cicloCentro": "International Polytechnic Center.",
+        "cicloFecha":"Currently...",
+        "cicloDescripcion":"At present, I am pursuing the Advanced Technical Diploma in Multiplatform Application Development (DAM) to further expand my knowledge in web programming and to begin exploring mobile application development.",
+        "react":"React - The Complete Guide 2024 (incl. Next.js, Redux)",
+        "reactCentro":"Udemy",
+        "reactFecha":"March 2024",
+        "reactDescripcion":"Complete React course in which I delved into Hooks, components, React Router, Next.js, Redux, testing, and more... It contains 68 hours of content, exercises, and projects that allowed me to practice.",
+        "javascript":"JavaScript Algorithms and Data Structure",
+        "javascriptCentro":"FreeCodeCamp",
+        "javascriptFecha":"July 2023",
+        "javascriptDescripcion":"Advanced JavaScript certificate that I completed after the bootcamp to test and review what I had learned.",
+        "bootcamp": "Bootcamp fullstack & mobile",
+        "bootcampCentro": "Reboot Academy",
+        "bootcampFecha": "June 2023",
+        "bootcampDescripcion":"I completed a 6-month full-stack bootcamp. This is where I started in the world of development, learning technologies such as HTML, CSS, JS, MySQL, Node.js, application deployment, React, and more..."
+    },
+    "proyectos": {
+        "proyectos":"Projects",
+        "fedFodFrontTitulo": "FedFod - Upload your culinary videos or photos.",
+        "fedFodFrontDescripcion":"A website that mimics the functionality of TikTok but focuses on food content, allowing users to discover, watch, and share multimedia related to gastronomy and cooking.",
+        "fedFodBackDescripcion":"This backend manages user authentication, video uploading and storage, as well as interaction with content, including comments, likes, and personalized search.",
+        "apetitBackDescripcion":"Implementation of the backend for a recipe website where you can organize your weekly meal plans.",
+        "ipTitulo":"IP Tracker - Programming Challenge",
+        "ipDescripcion": "Creation of an interactive user interface that allows us to view the location of an IP address that we input.",
+        "masProyectos": "See more projects..."
+    },
+    "sobreMi": {
+        "sobreMi":"About me",
+        "primerParrafo": "My name is Abián. I am a psychologist, but since I discovered programming through a bootcamp, I have been expanding my skills in web development and exploring new technologies.",
+        "primerParrafoStrong": "i love creating web experiences for users.",
+        "segundoParrafo1":"Among my successes, I highlight that during the bootcamp",
+        "segundoParrafoStrong":"i helped my team members learn about React.",
+        "segundoParrafo2": "with concepts they weren't clear about. I love being able to share my knowledge if it helps others.",
+        "tercerParrafoStrong":"I have experience developing web applications.",
+        "tercerParrafo":"Currently, I am developing a project related to psychology, aimed at providing key information about mental health and offering a space where people can seek help.",
+        "derechos":  "Almost all rights reserved."
+    },
+    "masPoryectos": {
+        "e-commerceTitulo":"E-Commerce - Programming Challenge",
+        "e-commerceDescripcion":"Website for a part of an e-commerce platform, where users can view different photos of the product and add or remove items from the cart.",
+        "piedraPapelTitulo":"Rock, Paper, Scissors - Programming Challenge",
+        "piedraPapelDescripcion":"Interactive rock, paper, scissors game that keeps track of the victories achieved.",
+        "apetitTitulo":"Apetit Comite - Manage Your Weekly Diet",
+        "apetitDescripcion":"This page features a series of recipes that you can add to each day of the week, allowing you to have a weekly meal plan.",
+        "propinaTitulo":"Tip Calculator - Programming Challenge",
+        "propinaDescripcion":"Programming challenge that involved creating a calculator to calculate the tip based on the number of people.",
+        "comentariosTitulo":"Comments Section - Programming Challenge",
+        "comentariosDescripcion":"Programming challenge that involves creating an interactive comments section. It allows users to create comments, reply to comments, and like them.",
+        "edadTitulo":"Age Calculator - Programming Challenge",
+        "edadDescripcion":"Programming challenge that calculates a person's age by entering their date of birth.",
+        "notificacionesTitulo":"Notifications Section - Programming Challenge",
+        "notificacionesDescripcion":"Programming challenge to practice the functionality of notifications."
+    }
+ 
+}
