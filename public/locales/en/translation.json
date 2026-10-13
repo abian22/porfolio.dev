@@ -45,16 +45,16 @@
     },
     "sobreMi": {
         "sobreMi":"About me",
-        "primerParrafo": "My name is Abián. I am a psychologist, but since I discovered programming through a bootcamp, I have been expanding my skills in web development and exploring new technologies.",
-        "primerParrafoStrong": "i love creating web experiences for users.",
-        "segundoParrafo1":"Among my successes, I highlight that during the bootcamp",
-        "segundoParrafoStrong":"i helped my team members learn about React.",
-        "segundoParrafo2": "with concepts they weren't clear about. I love being able to share my knowledge if it helps others.",
-        "tercerParrafoStrong":"I have experience developing web applications.",
-        "tercerParrafo":"Currently, I am developing a project related to psychology, aimed at providing key information about mental health and offering a space where people can seek help.",
+        "primerParrafo": "Hi! I'm Abián, ",
+        "primerParrafoStrong": "a Full Stack Web Developer focused on building robust solutions, maintainable code, and intuitive experiences.",
+        "segundoParrafo1": "My background in Psychology helps me better understand people's needs and translate them into useful digital products. Furthermore, my hands-on experience ",
+        "segundoParrafoStrong": "developing ERPs and B2B platforms, ",
+        "segundoParrafo2": "such as Shuttle Truck and Busleader, has allowed me to work across backend, frontend, and automated testing with Playwright and Cypress.",
+        "tercerParrafoStrong": "I am looking for new challenges where my experience can make a difference",
+        "tercerParrafo": ", continue growing as a developer, and help build products that truly add value. Shall we talk?",
         "derechos":  "Almost all rights reserved."
     },
-    "masPoryectos": {
+    "masProyectos": {
         "e-commerceTitulo":"E-Commerce - Programming Challenge",
         "e-commerceDescripcion":"Website for a part of an e-commerce platform, where users can view different photos of the product and add or remove items from the cart.",
         "piedraPapelTitulo":"Rock, Paper, Scissors - Programming Challenge",

@@ -17,13 +17,12 @@
     "astro": "4.4.5",
     "astro-i18next": "^1.0.0-beta.21",
     "astro-robots-txt": "1.0.0",
-    "i18next": "^23.15.1",
-    "i18next-browser-languagedetector": "^8.0.0",
-    "react-i18next": "^15.0.2",
+    "i18next": "22.5.1",
     "tailwindcss": "3.4.1",
     "typescript": "5.3.3"
   },
   "devDependencies": {
+    "@types/i18next": "^12.1.0",
     "prettier-plugin-astro": "^0.14.1"
   }
 }
